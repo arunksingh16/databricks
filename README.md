@@ -62,3 +62,5 @@ to store objects such as cluster logs, notebook revisions, and job results.
 for access to S3 artifacts and logs.
 
 `A cross-account AWS Identity and Access Management (IAM) role` to enable Databricks to deploy clusters in the VPC for the new workspace. Depending on the deployment option you choose, you either create this IAM role during deployment or use an existing IAM role.
+
+[https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace]
