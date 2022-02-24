@@ -20,6 +20,7 @@ Please note A Databricks account represents a single entity for purposes of bill
 ### Architecture
 Each databricks env has two planes - control and data plane
 > Control Plane - The control plane includes the backend services that Databricks manages in its own AWS account
+> 
 > Data Plane - compute resources in your AWS account is called the Classic data plane.
 
 Please note You can use Databricks connectors so that your clusters can connect to external data sources outside of your AWS account to ingest data or for storage.
